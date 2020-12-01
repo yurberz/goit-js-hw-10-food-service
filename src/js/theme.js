@@ -27,7 +27,7 @@ themeSwitchRef.addEventListener("change", theme);
 //===
 
 const check = () => {
-  if (localStorage.getItem("theme") === Theme.LIGHT) {
+  if (localStorage.getItem("theme") === Theme.DARK) {
     themeSwitchRef.checked = true;
     bodyRef.classList.add(Theme.DARK);
   } else {
