@@ -14,6 +14,7 @@ const theme = () => {
   } else {
     bodyRef.classList.replace(Theme.LIGHT, Theme.DARK);
   }
+  // bodyRef.classList.toggle(Theme.DARK);
 
   if (localStorage.getItem("theme") === Theme.DARK) {
     localStorage.setItem("theme", Theme.LIGHT);
